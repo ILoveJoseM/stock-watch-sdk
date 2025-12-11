@@ -171,6 +171,17 @@ class ReportRequest implements Arrayable
         return $this;
     }
 
+    public function buildSeason($year, $season)
+    {
+        return "{$year}-{$season}";
+    }
+    public function whereDate($column, $date)
+    {
+        $this->wheres[] = "({$column}='{$date}')";
+        $this->filter = implode('', $this->wheres);
+        return $this;
+    }
+
     /**
      * 转换为数组
      *

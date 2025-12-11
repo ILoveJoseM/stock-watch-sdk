@@ -1,7 +1,7 @@
 {
   "name": "jose-chan/stock-watch-sdk",
-  "description": "The Laravel Extension of Stock Watch and Investment Analysis.",
-  "keywords": ["extension", "stock-sdk", "investment", "analysis"],
+  "description": "The Laravel Sdk of Stock Watch",
+  "keywords": ["extension", "stock-sdk"],
   "authors": [{
     "name": "JoseChan",
     "email": "524233828@qq.com"
